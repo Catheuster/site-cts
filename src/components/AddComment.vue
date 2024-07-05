@@ -46,7 +46,7 @@ const onSubmit: SubmissionHandler<z.infer<typeof schema>> = async ({ content, us
             </header>
 
             <Form class="w-full h-full flex flex-col gap-2 p-6" :validation-schema="veeValidateSchema"
-                v-slot="{ isSubmitting }" @submit="onSubmit">
+                v-slot="{ isSubmitting }" @submit="onSubmit as any">
                 <Field name="username" v-slot="{ field }">
                     <input placeholder="NOME" v-bind="field" type="text"
                         class="w-full bg-grey outline-none border-t-2 border-l-2 border-[#555555] drop-shadow-reverse placeholder:text-zinc-600" />
