@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Fragment, defineProps } from "vue"
 import markdownIt from 'markdown-it';
+// @ts-ignore
 import markdownItVideo from "@vrcd-community/markdown-it-video";
 
 const { text } = defineProps<{ text: string }>()
