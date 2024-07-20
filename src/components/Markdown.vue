@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { Fragment, defineProps } from "vue"
 import markdownIt from 'markdown-it';
+import markdownItVideo from "@vrcd-community/markdown-it-video";
 
 const { text } = defineProps<{ text: string }>()
-const md = markdownIt()
+const md = markdownIt().use(markdownItVideo, {
+    containerClassName: "video-embed"
+})
 </script>
 
 <style>

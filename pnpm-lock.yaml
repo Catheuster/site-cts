@@ -14,6 +14,9 @@ importers:
       '@vee-validate/zod':
         specifier: ^4.13.1
         version: 4.13.1(vue@3.4.31(typescript@5.4.5))
+      '@vrcd-community/markdown-it-video':
+        specifier: ^1.1.1
+        version: 1.1.1
       '@vueuse/components':
         specifier: ^10.11.0
         version: 10.11.0(vue@3.4.31(typescript@5.4.5))
@@ -23,6 +26,9 @@ importers:
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
+      markdown-it-block-embed:
+        specifier: ^0.0.3
+        version: 0.0.3
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))
@@ -658,6 +664,9 @@ packages:
   '@volar/typescript@2.4.0-alpha.7':
     resolution: {integrity: sha512-MjvkhcIYPDZS5vbE4bSvbWi8z/VI47AY8MkPVgfa6xqTDLLxV6+QulJ8hIC3wYxh3dfVmA5MOoL5c3cZAsWbDQ==}
 
+  '@vrcd-community/markdown-it-video@1.1.1':
+    resolution: {integrity: sha512-Y1RUJawdUL/laFunC8t28Zto6TV0WhstfluvMaBzHVYmbZ0mrNLyqQbpBUh4tKT3khrw8Gua3cA6zqCUK9DCYA==}
+
   '@vue-macros/common@1.10.4':
     resolution: {integrity: sha512-akO6Bd6U4jP0+ZKbHq6mbYkw1coOrJpLeVmkuMlUsT5wZRi11BjauGcZHusBSzUjgCBsa1kZTyipxrxrWB54Hw==}
     engines: {node: '>=16.14.0'}
@@ -1186,6 +1195,9 @@ packages:
 
   magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
+
+  markdown-it-block-embed@0.0.3:
+    resolution: {integrity: sha512-coWuC/uZY6Z1Gp3wthhJo5yjkG3/gHErNF/emaiEvD98fKzEHNP6GCYGfJfk5o0n31xiaYjbDgef+XtabKOZzA==}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -2311,6 +2323,8 @@ snapshots:
       path-browserify: 1.0.1
       vscode-uri: 3.0.8
 
+  '@vrcd-community/markdown-it-video@1.1.1': {}
+
   '@vue-macros/common@1.10.4(rollup@4.18.0)(vue@3.4.31(typescript@5.4.5))':
     dependencies:
       '@babel/types': 7.24.7
@@ -2879,6 +2893,8 @@ snapshots:
   magic-string@0.30.10:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  markdown-it-block-embed@0.0.3: {}
 
   markdown-it@14.1.0:
     dependencies:
